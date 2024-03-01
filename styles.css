@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 508px;
+    height: 508px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.square {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box; /* Include border and padding in the square's dimensions */
+    width: calc((100% / 4)); /* Adjusted width calculation to account for border */
+    height: calc((100% / 4)); /* Adjusted height calculation to account for border */
+    margin: 0;
+}
